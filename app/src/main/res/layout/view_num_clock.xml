@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_day_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/num_day_bg"
+        android:gravity="center"
+        android:text="上午"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <TextView
+        android:id="@+id/tv_time_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/num_bg"
+        android:gravity="center"
+        android:text="12:08"
+        android:textColor="#32C8FF"
+        android:textSize="60sp" />
+
+
+</LinearLayout>

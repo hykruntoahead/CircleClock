@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleClockView">
+        <!--时针颜色-->
+        <attr name="hour_needle_color" format="color" />
+        <attr name="hour_needle_height" format="dimension" />
+        <attr name="hour_needle_width" format="dimension" />
+        <!--分针颜色-->
+        <attr name="min_needle_color" format="color" />
+        <attr name="min_needle_height" format="dimension" />
+        <attr name="min_needle_width" format="dimension" />
+        <!--秒针颜色-->
+        <attr name="second_needle_color" format="color" />
+        <attr name="second_needle_height" format="dimension" />
+        <attr name="second_needle_width" format="dimension" />
+
+        <!--表盘数字大小-->
+        <attr name="dial_num_textSize" format="dimension" />
+        <attr name="dial_num_textColor" format="color" />
+        <attr name="dial_num_offset" format="dimension" />
+
+        <!--表盘刻度线高-->
+        <attr name="dial_line_height" format="dimension" />
+        <attr name="dial_line_width" format="dimension" />
+        <attr name="dial_line_color" format="color" />
+        <attr name="dial_line_offset" format="dimension" />
+
+        <!--圆心颜色-->
+        <attr name="circle_center_color" format="color" />
+        <!--圆心半径-->
+        <attr name="circle_center_radius" format="dimension" />
+
+        <!--圆心外圆环颜色-->
+        <attr name="ring_center_color" format="color" />
+        <attr name="ring_center_radius" format="dimension" />
+
+        <!--最外(边缘)圆环颜色-->
+        <attr name="ring_edge_color" format="color" />
+        <attr name="ring_edge_radius" format="dimension" />
+
+        <!--表盘背景色-->
+        <attr name="dial_background_color" format="color" />
+
+
+    </declare-styleable>
+</resources>
